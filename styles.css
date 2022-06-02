@@ -378,7 +378,8 @@ img{
 
 /*==================== ABOUT ====================*/
 .about__img{
-  width: 200px;
+  max-width: 70%;
+  height: auto;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
@@ -405,7 +406,9 @@ img{
   color: var(--title-color);
 }
 .about__info-name{
-  font-size: var(--smaller-font-size);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
 }
 
 .about__info-title,
@@ -415,6 +418,14 @@ img{
 }
 
 .about__buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.button__icon__about{
+  font-size: 2rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
   display: flex;
   justify-content: center;
 }
@@ -854,6 +865,10 @@ img{
   .contact__container{
     max-width: 450px;
   }
+  .about__img{
+    max-width: 70%;
+    height: auto;
+  }
 }
 
 /* For medium devices */
@@ -890,6 +905,8 @@ img{
     align-items: center;
   }
   .about__img{
+    max-width: 70%;
+    height: auto;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -962,9 +979,6 @@ img{
   .about__container{
     column-gap: 5rem;
   }
-  .about__img{
-    width: 350px;
-  }
   /* .about__description{
     text-align: initial;
   }
@@ -1017,6 +1031,8 @@ img{
     margin: auto;
   }
   .about__img{
+    max-width: 70%;
+    height: auto;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -1071,6 +1087,8 @@ img{
     display: block;
   }
   .about__img{
+    max-width: 70%;
+    height: auto;
     display: flex;
     margin-right: auto;
     margin-left: auto;
