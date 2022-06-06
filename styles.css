@@ -496,7 +496,7 @@ img{
 }
 
 .skills__formulas{
-  width: 75%;
+  width: 70%;
 }
 
 .skills__formatting{
@@ -504,21 +504,21 @@ img{
 }
 
 .skills__cleaning{
-  width: 45%;
+  width: 30%;
 }
 
 .skills__vis{
-  width: 35%;
+  width: 25%;
 }
 .skills__pandas{
-  width: 35%;
+  width: 20%;
 }
 .skills__html{
-  width: 55%;
+  width: 45%;
 }
 
 .skills__css{
-  width: 55%;
+  width: 35%;
 }
 
 .skills__java{
